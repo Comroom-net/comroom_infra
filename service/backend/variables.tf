@@ -29,7 +29,7 @@ variable "secret_key" {
   type        = string
 }
 
-variable "git_access_token" {
+variable "git_token" {
   description = "The git token for the AWS account"
   type        = string
 }

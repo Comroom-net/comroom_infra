@@ -36,6 +36,6 @@ data "template_file" "post_install" {
   template = file("post_install.sh.tpl")
 
   vars = {
-    git_access_token = var.git_access_token
+    git_access_token = var.git_token
   }
 }
